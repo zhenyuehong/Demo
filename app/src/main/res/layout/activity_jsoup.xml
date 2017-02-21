@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_jsoup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mtelnet.myview.jsoup.JsoupActivity">
+    <android.support.design.widget.TabLayout android:id="@+id/lay_tab"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="50dp"
+                                             app:tabGravity="fill"
+                                             app:tabIndicatorColor="@color/bgColor_overlay"
+                                             app:tabIndicatorHeight="0dp"
+                                             app:tabMode="scrollable"
+                                             app:tabSelectedTextColor="@android:color/holo_green_dark"
+                                             app:tabTextColor="@android:color/black"
+    />
+    <!--TabLayout中app:tabIndicatorHeight="0dp"是为了不显示tab底部的横线，app:tabMode="fixed"是让底部tab布局不可滑动。-->
+    <android.support.v4.view.ViewPager android:id="@+id/lay_viewpage"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="match_parent"/>
+
+</LinearLayout>
