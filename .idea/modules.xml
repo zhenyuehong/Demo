@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyView.iml" filepath="$PROJECT_DIR$/MyView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baselibrary/baselibrary.iml" filepath="$PROJECT_DIR$/baselibrary/baselibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/flipviewlibrary/flipviewlibrary.iml" filepath="$PROJECT_DIR$/flipviewlibrary/flipviewlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/stepview/stepview.iml" filepath="$PROJECT_DIR$/stepview/stepview.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />

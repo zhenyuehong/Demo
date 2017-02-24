@@ -1,1 +1,1 @@
-include ':app', ':test', ':flipviewlibrary', ':xswitch', ':xruler', ':stepview'
+include ':app', ':test', ':flipviewlibrary', ':xswitch', ':xruler', ':stepview', ':baselibrary'

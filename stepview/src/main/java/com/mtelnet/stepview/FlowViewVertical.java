@@ -43,6 +43,33 @@ public class FlowViewVertical extends View {
     private int border;
     private Map<String, String> map;
 
+//    属性	        介绍	         类型	        默认	是否必须
+//    v_bg_radius	背景 ○ 的半径	dimension	5	否
+//    v_pro_radius	已完成 ○ 的半径	dimension	2	否
+//    v_bg_width	背景线的宽度	dimension	3	否
+//    v_bg_color	背景的颜色	color	#cdcbcc	否
+//    v_pro_width	已完成线的宽度	dimension	2	否
+//    v_pro_color	已完成的颜色	color	#029dd5	否
+//    v_interval	○ 与 ○之间的间距	dimension	80	否
+//    v_bgPositionX	指示线距view左边缘的距离	dimension	100	否
+//    v_textPaddingLeft	步骤描述文字与指示线的距离	dimension	10	否
+//    v_timePaddingRight	时间与指示线的距离	dimension	15	否
+//    v_max_step	总步骤(○)的个数	int	5	否
+//    v_pro_step	已完成步骤	int	1	否
+//    v_textsize	字体大小	dimension	10	否
+//    v_textMoveTop	指示器右侧文字位置上下移动的距离	dimension	5	否
+//    v_timeMoveTop	指示器左侧文字位置上下移动的距离	dimension	4	否
+
+
+
+//    竖向
+//
+//    竖向指示器需单独设置步骤之间的间隔(v_interval)
+//    竖向指示器可与ScrollView结合使用,从而达到滑动
+//            竖向指示器并没有使用item复用,如果数据量较大建议使用listview
+//    竖向指示器绘制文字有所不同,也因此导致文字与步骤节点(○)不在一个水平线上,可通过v_textMoveTop与v_timeMoveTop适配
+
+
     public FlowViewVertical(Context context) {
         this(context, null);
     }
