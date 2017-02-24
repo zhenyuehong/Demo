@@ -46,6 +46,9 @@ public class MainActivity extends AppCompatActivity {
     String str25 = "25、View之控件的宽高获取";
     String str26 = "26、View之属性动画和补间动画";
     String str27 = "27、通知栏相关";
+    String str28 = "28、动态计算高度和固定最大高度的文本";
+    String str29 = "29、自定义开关和尺子";
+    String str30 = "30、状态进度条";
     private List<String> mList = new ArrayList<>();
 
     @Override
@@ -79,6 +82,9 @@ public class MainActivity extends AppCompatActivity {
         mList.add(str25);
         mList.add(str26);
         mList.add(str27);
+        mList.add(str28);
+        mList.add(str29);
+        mList.add(str30);
 
         RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.recycle);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -155,6 +161,12 @@ public class MainActivity extends AppCompatActivity {
                         goTargetPage(ViewTranslateActivity.class);
                     }else if (position == 26) {
                         goTargetPage(CheckNotifyActivity.class);
+                    }else if (position == 27) {
+                        goTargetPage(CustTextActivity.class);
+                    }else if (position == 28) {
+                        goTargetPage(SwitchAndRulerActivity.class);
+                    }else if (position == 29) {
+                        goTargetPage(StepViewActivity.class);
                     }
                 }
             });

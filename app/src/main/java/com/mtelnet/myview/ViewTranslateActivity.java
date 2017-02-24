@@ -6,6 +6,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.ViewTreeObserver;
 import android.view.WindowManager;
 import android.view.animation.LinearInterpolator;
 import android.widget.ImageView;
@@ -23,6 +24,7 @@ public class ViewTranslateActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_translate);
         final ImageView img_translate = (ImageView) findViewById(R.id.trans_img);
+        final LinearLayout rootView= (LinearLayout) findViewById(R.id.ll_anim);
 
         //补间动画，view原来的位置不变，想要真正改变view的位置，要用属性动画
 //        TranslateAnimation animation=new TranslateAnimation(0,500,0,200);
@@ -75,15 +77,39 @@ public class ViewTranslateActivity extends AppCompatActivity {
 //        animatorSet.start();
 
 
+        //放大图片，然后缩小还原到原来的位置
+
+        img_translate.getViewTreeObserver().addOnPreDrawListener(new ViewTreeObserver.OnPreDrawListener() {
+            @Override
+            public boolean onPreDraw() {
+                img_translate.getViewTreeObserver().removeOnPreDrawListener(this);
+
+                return true;
+            }
+        });
+
+        final int[] locOfHeadlineView = new int[2];
+        img_translate.getLocationOnScreen(locOfHeadlineView);
+
         // 获取屏幕宽高
         WindowManager wm = (WindowManager) getSystemService(Context.WINDOW_SERVICE);
         screen_height = wm.getDefaultDisplay().getHeight();
 
-        //放大图片，然后缩小还原到原来的位置
 
-        final int[] locOfHeadlineView = new int[2];
-        img_translate.getLocationOnScreen(locOfHeadlineView);
-        
+//        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+//        params.topMargin = locOfHeadlineView[1];
+//        params.bottomMargin = screen_height - (locOfHeadlineView[1] +img_translate.getHeight() ) ;
+//        img_translate.setLayoutParams(params);
+//
+//        ViewGroup p = (ViewGroup) img_translate.getParent();
+//        if (p != null) {
+//            p.removeAllViewsInLayout();
+//        }
+//        rootView.addView(img_translate);
+
+
+
+
         ObjectAnimator anim=ObjectAnimator.ofFloat(img_translate,"hzy",0.0F,1.0F);
         anim.setDuration(1000);
         anim.setTarget(img_translate);
@@ -99,7 +125,6 @@ public class ViewTranslateActivity extends AppCompatActivity {
 
                 img_translate.setLayoutParams(params);
                 img_translate.requestLayout();
-
 
 //                FrameLayout.LayoutParams params = (FrameLayout.LayoutParams) eventView.getLayoutParams();
 //

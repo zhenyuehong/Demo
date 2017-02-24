@@ -3,12 +3,30 @@
 
     <item
         is-multidex="false"
-        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.1_7a20b6d7229b20c5df3d116f637e1690de2b938a.jar" />
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_64afc51363f3bf57dae641430d36791e0ed9b973.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/MyView/flipviewlibrary/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a562e713a21649eeefe5e55c110e7d91ef4ffc10">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/MyView-flipviewlibrary-unspecified_bd13dfa0d6b8db26376b4e9e58afb5a7265c90e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.airsaid.library/pickerviewlibrary/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4d45729320b20ea59f4bc977d47f716398efc905">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.airsaid.library-pickerviewlibrary-1.0.0_eb0d920f41c9c3e04fdcf32e3c05a0ed687a2354.jar" />
     </item>
     <item
         is-multidex="false"
@@ -21,12 +39,84 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.2.0_c720f2ef67ab4e2014345ab2fcfb69766e427a70.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.google.vr/sdk-commonwidget/1.10.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="d4d5c35a22b8e4563afeb030eb16f137717503d1">
         <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.google.vr-sdk-commonwidget-1.10.0_8fe6c1160a0302025a7603d3bfdf9f57aad87ede.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.2.0_0558b28fbddb07aa16f816fc8c0c10911c0ba5d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/MyView/xswitch/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="1a56d37aa443f9f08dfccf964a25d3f477b463e6">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/MyView-xswitch-unspecified_62fc7db15862af0575c64bace4745ecae8408396.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_41c0137cd8043bf406a8afac6d500af2fb375b2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.github.codbking/CalendarExaple/v1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="acfec37f78816f0fc33fd7843efe6aa15d81fd70">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.github.codbking-CalendarExaple-v1.0.0_e3315c837a3857450555538eabb15178985200ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hongzhenyue/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/glide-3.7.0_fe230483c976b80db58cf16274342c67d1e89298.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_63d2e8f909685e6f32b993ad55fdfca3e844937f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hongzhenyue/.gradle/caches/modules-2/files-2.1/com.google.protobuf.nano/protobuf-javanano/3.1.0/5110f05deac8f15244897b3f70e9ce413468771d/protobuf-javanano-3.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5110f05deac8f15244897b3f70e9ce413468771d">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/protobuf-javanano-3.1.0_57eb01cdcf72a82b27cec3dd14fe70ad07a92f0a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -39,12 +129,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.1_0bed515fd82905d3c428592e4939ab551b9286b5.jar" />
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_472e76e680e390909890525013fbeb1077390136.jar" />
     </item>
     <item
         is-multidex="false"
@@ -57,12 +147,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.google.vr/sdk-panowidget/1.10.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.1_6e8e4f9cb3f50fa83a6a55efec5c79511e5fc452.jar" />
+        sha1="599391252c9619b99dbc5cea5685da204a07f03c">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.google.vr-sdk-panowidget-1.10.0_ea33b02b59824c78495d5e77c331c57ef276267c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hongzhenyue/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_95d4f8ab142e31321d08eb981863f76a0d7cca75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_0f4df51dbe8b6c8a5f393665b59b03d4394e5ded.jar" />
     </item>
     <item
         is-multidex="false"
@@ -75,21 +183,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/MyView/xruler/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.1_a0218a26dd590f7120f372083a1ac83795694414.jar" />
+        sha1="943d769aaba9276b922b9840b6a14984539fc6cd">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/MyView-xruler-unspecified_1d530bad3f71b532a721bfbecf5afd62050e6c55.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.1_75d1cade45073497aa577eaa3a5f23683be2a9b6.jar" />
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_06e91b9a496968b0a7612236bdf0ad432866ac85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_b94ba007025b961dc836f3d6686518892bd65a3f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -120,129 +237,21 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/MyView/stepview/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b79fb0906557c0c727214a982d081e851769d98e">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/MyView-stepview-unspecified_42022e503953c07bbcc0336d4e9ccada3242b760.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/hongzhenyue/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.10.1/645f1ad2f6f4cbad1cde4c483eae71e4051be6ef/jsoup-1.10.1.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="645f1ad2f6f4cbad1cde4c483eae71e4051be6ef">
         <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/jsoup-1.10.1_7f1a607029536dbc99063b336900d33120a77415.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.1_c8f0dbe43a024992b7097d871e013d2b2a854e28.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.1_52c8c503e2abc6c1a8eeb5dd9a39467552498fac.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hongzhenyue/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.5/3277b0b0c2ace34a2edb5ddf9d1f67829561fb8f/leakcanary-analyzer-1.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="3277b0b0c2ace34a2edb5ddf9d1f67829561fb8f">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/leakcanary-analyzer-1.5_e122005b3339064999febdeee0af75bf56e6eeb5.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_64afc51363f3bf57dae641430d36791e0ed9b973.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/MyView/flipviewlibrary/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="a562e713a21649eeefe5e55c110e7d91ef4ffc10">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/MyView-flipviewlibrary-unspecified_bd13dfa0d6b8db26376b4e9e58afb5a7265c90e3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.airsaid.library/pickerviewlibrary/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="4d45729320b20ea59f4bc977d47f716398efc905">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.airsaid.library-pickerviewlibrary-1.0.0_eb0d920f41c9c3e04fdcf32e3c05a0ed687a2354.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.github.codbking/CalendarExaple/v1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="acfec37f78816f0fc33fd7843efe6aa15d81fd70">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.github.codbking-CalendarExaple-v1.0.0_e3315c837a3857450555538eabb15178985200ad.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hongzhenyue/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/glide-3.7.0_fe230483c976b80db58cf16274342c67d1e89298.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hongzhenyue/.gradle/caches/modules-2/files-2.1/com.google.protobuf.nano/protobuf-javanano/3.1.0/5110f05deac8f15244897b3f70e9ce413468771d/protobuf-javanano-3.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5110f05deac8f15244897b3f70e9ce413468771d">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/protobuf-javanano-3.1.0_57eb01cdcf72a82b27cec3dd14fe70ad07a92f0a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.google.vr/sdk-panowidget/1.10.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="599391252c9619b99dbc5cea5685da204a07f03c">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.google.vr-sdk-panowidget-1.10.0_ea33b02b59824c78495d5e77c331c57ef276267c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_0f4df51dbe8b6c8a5f393665b59b03d4394e5ded.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.1_d9543031c04222a0716725a5d487c918fbc97930.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.1_a94746a2f40adffcbe04c704178ad40473b85766.jar" />
     </item>
     <item
         is-multidex="false"
@@ -264,12 +273,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hongzhenyue/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.1_5aaa8012fdda9c40af03230e1f73e92682f88b31.jar" />
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_7d0e3496e3a9179b92b5b77a7ca08d28f8c6f081.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hongzhenyue/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-analyzer/1.5/3277b0b0c2ace34a2edb5ddf9d1f67829561fb8f/leakcanary-analyzer-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3277b0b0c2ace34a2edb5ddf9d1f67829561fb8f">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/leakcanary-analyzer-1.5_e122005b3339064999febdeee0af75bf56e6eeb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.2.0_05f92bae6c20503fa81c0608fe4c2e53d2650870.jar" />
     </item>
 
 </items>

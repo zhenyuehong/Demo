@@ -3,6 +3,7 @@ package com.mtelnet.myview.zoomanim;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.drawable.ColorDrawable;
@@ -38,6 +39,11 @@ public class DetailActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
+        mProgressDialog=new ProgressDialog(this);
+        mProgressDialog.setMessage("loading...");
+        mProgressDialog.setCancelable(false);
+        mProgressDialog.show();
+
         initArguments();
         initView();
     }
@@ -77,10 +83,14 @@ public class DetailActivity extends AppCompatActivity {
         mImageView.setImageBitmap(bitmap);
     }
 
+    private ProgressDialog mProgressDialog;
+
     private void tryEnterAnimation() {
-        ZoomAnimationUtils.startZoomUpAnim(mZoomInfo, mImageView, null);
+
         ZoomAnimationUtils.startBackgroundAlphaAnim(mBackgroundView,
                 new ColorDrawable(getResources().getColor(android.R.color.black)), 0, 255);
+
+        ZoomAnimationUtils.startZoomUpAnim(mProgressDialog,mZoomInfo, mImageView, null);
     }
 
     private void tryExitAnimation() {

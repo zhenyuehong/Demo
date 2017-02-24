@@ -3,6 +3,7 @@ package com.mtelnet.myview.zoomanim;
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
+import android.app.ProgressDialog;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -23,11 +24,15 @@ import com.orhanobut.logger.Logger;
 public class ZoomAnimationUtils {
     public static final int ANIMATION_DURATION = 300;
 
+    //进场动画
+    public static void startZoomUpAnim(final ProgressDialog progressDialog, final ZoomInfo preViewInfo, final View targetView, final Animator.AnimatorListener listener) {
 
-    public static void startZoomUpAnim(final ZoomInfo preViewInfo, final View targetView, final Animator.AnimatorListener listener) {
         targetView.getViewTreeObserver().addOnPreDrawListener(new ViewTreeObserver.OnPreDrawListener() {
             @Override
             public boolean onPreDraw() {
+                if (progressDialog.isShowing()){
+                    progressDialog.dismiss();
+                }
                 targetView.getViewTreeObserver().removeOnPreDrawListener(this);
                 //初始图片大小、
                 int startWidth = preViewInfo.getWidth();
@@ -68,7 +73,7 @@ public class ZoomAnimationUtils {
                 targetView.setVisibility(View.VISIBLE);
                 ViewPropertyAnimator animator = targetView.animate();
                 animator.setDuration(ANIMATION_DURATION)
-                       //x y 偏移量为0，即位置不变
+                        //x y 偏移量为0，即位置不变
                         .translationX(0)
                         .translationY(0)
                         //view 向x y 从1 / startScale 扩张到 1
@@ -83,6 +88,7 @@ public class ZoomAnimationUtils {
         });
     }
 
+    //出场动画
     public static void startZoomDownAnim(ZoomInfo preViewInfo, final View targetView, final Animator.AnimatorListener listener) {
         int endWidth = preViewInfo.getWidth();
         int endHeight = preViewInfo.getHeight();

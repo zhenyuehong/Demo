@@ -10,7 +10,10 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/flipviewlibrary" />
+            <option value="$PROJECT_DIR$/stepview" />
             <option value="$PROJECT_DIR$/test" />
+            <option value="$PROJECT_DIR$/xruler" />
+            <option value="$PROJECT_DIR$/xswitch" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

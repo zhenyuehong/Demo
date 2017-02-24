@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
-    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
 
     <application
         android:name=".MyApplication"
@@ -100,6 +100,12 @@
         <activity android:name=".ViewTranslateActivity">
         </activity>
         <activity android:name=".CheckNotifyActivity">
+        </activity>
+        <activity android:name=".CustTextActivity">
+        </activity>
+        <activity android:name=".SwitchAndRulerActivity">
+        </activity>
+        <activity android:name=".StepViewActivity">
         </activity>
     </application>
 

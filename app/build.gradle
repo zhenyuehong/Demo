@@ -49,4 +49,7 @@ dependencies {
     releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
     testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.5'
     compile project(':flipviewlibrary')
+    compile project(':xruler')
+    compile project(':xswitch')
+    compile project(':stepview')
 }
