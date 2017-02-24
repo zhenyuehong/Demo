@@ -5,6 +5,8 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.mtelnet.baselibrary.base.BaseActivity;
+import com.mtelnet.baselibrary.net.bean.BannerList;
+import com.mtelnet.baselibrary.net.bean.BaseCallBackListData;
 
 public class MainActivity extends BaseActivity<MainContract.Presenter> implements MainContract.View {
     private TextView mTvValue;
@@ -21,17 +23,12 @@ public class MainActivity extends BaseActivity<MainContract.Presenter> implement
         mTvValue = (TextView) findViewById(R.id.tv_mvp_value);
     }
 
-    @Override
-    public void setValue(final String value) {
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                mTvValue.setText(value);
-            }
-        });
+    public void getValue(View view) {
+        mPresenter.getValue("en");
     }
 
-    public void getValue(View view) {
-        mPresenter.getValue();
+    @Override
+    public void setBannerValue(BaseCallBackListData<BannerList> value) {
+        mTvValue.setText("Banner link: "+value.data.get(0).image);
     }
 }

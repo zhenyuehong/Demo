@@ -1,10 +1,11 @@
 package com.mtelnet.baselibrary;
 
-import android.content.Context;
-
 import com.mtelnet.baselibrary.base.BaseModel;
 import com.mtelnet.baselibrary.base.BasePresenter;
 import com.mtelnet.baselibrary.base.BaseView;
+import com.mtelnet.baselibrary.net.ApiCallBack;
+import com.mtelnet.baselibrary.net.bean.BannerList;
+import com.mtelnet.baselibrary.net.bean.BaseCallBackListData;
 
 /**
  * Created by hongzhenyue on 17/2/24.
@@ -13,11 +14,13 @@ import com.mtelnet.baselibrary.base.BaseView;
 
 public interface MainContract {
         interface Model extends BaseModel{
-            void getValue(ICallBack iCallBack, Context context);
+//            void getBanner(ICallBack iCallBack, Context context);
+            void getBanner(ApiCallBack<BaseCallBackListData<BannerList>> iCallBack, String lang);
         }
 
         interface View extends BaseView{
-            void setValue(String value);
+            void setBannerValue(BaseCallBackListData<BannerList> value);
+
         }
 
     abstract class Presenter extends BasePresenter<View,Model>{
@@ -26,7 +29,7 @@ public interface MainContract {
             super(view, model);
         }
 
-        public abstract void getValue();
+        public abstract void getValue(String lang);
     }
 
 }
