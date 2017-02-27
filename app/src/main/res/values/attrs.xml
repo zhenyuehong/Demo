@@ -16,4 +16,6 @@
         <attr name="tapToFlip" format="boolean"/>
     </declare-styleable>
 
+    <!--accent first-->
+    <bool name="is_rtl">false</bool>
 </resources>

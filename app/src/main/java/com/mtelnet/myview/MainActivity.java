@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
     String str28 = "28、动态计算高度和固定最大高度的文本";
     String str29 = "29、自定义开关和尺子";
     String str30 = "30、状态进度条";
+    String str31 = "31、RecyclerView凸显第一个item效果";
     private List<String> mList = new ArrayList<>();
 
     @Override
@@ -85,6 +86,7 @@ public class MainActivity extends AppCompatActivity {
         mList.add(str28);
         mList.add(str29);
         mList.add(str30);
+        mList.add(str31);
 
         RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.recycle);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -167,6 +169,8 @@ public class MainActivity extends AppCompatActivity {
                         goTargetPage(SwitchAndRulerActivity.class);
                     }else if (position == 29) {
                         goTargetPage(StepViewActivity.class);
+                    }else if (position == 30) {
+                        goTargetPage(AccentFirstActivity.class);
                     }
                 }
             });

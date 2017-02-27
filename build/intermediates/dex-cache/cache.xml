@@ -12,15 +12,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/MyView/baselibrary/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.2"
-        sha1="6406fb9a074cf900e008fbf72b02e118d7965883">
-        <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/MyView-baselibrary-unspecified_4bf2ae1b37824c8d0d4e7533462a1e218cfb0973.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.google.vr/sdk-commonwidget/1.10.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -120,21 +111,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hongzhenyue/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/Users/hongzhenyue/MyView/baselibrary/build/intermediates/pre-dexed/debug/retrofit-2.1.0_6031e7a29eb1b88beec66a6038cd58d271080507.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
         <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_06e91b9a496968b0a7612236bdf0ad432866ac85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hongzhenyue/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/hongzhenyue/MyView/baselibrary/build/intermediates/pre-dexed/debug/retrofit-2.1.0_6031e7a29eb1b88beec66a6038cd58d271080507.jar" />
     </item>
     <item
         is-multidex="false"
@@ -156,15 +147,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hongzhenyue/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
-        <dex dex="/Users/hongzhenyue/MyView/baselibrary/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_4c991e2bd5e0c1a55c8d7b03eff1bb36d8f9fd09.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/hongzhenyue/MyView/app/build/intermediates/exploded-aar/com.google.vr/sdk-common/1.10.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -174,12 +156,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/hongzhenyue/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-scalars/2.1.0/7c0d7c8f6e52115bb82fa018d81a8d0cae35dde5/converter-scalars-2.1.0.jar"
+        jar="/Users/hongzhenyue/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="7c0d7c8f6e52115bb82fa018d81a8d0cae35dde5">
-        <dex dex="/Users/hongzhenyue/MyView/baselibrary/build/intermediates/pre-dexed/debug/converter-scalars-2.1.0_b6cb8c09cbeab1a443de8670f0b46b108fe23830.jar" />
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/hongzhenyue/MyView/baselibrary/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_4c991e2bd5e0c1a55c8d7b03eff1bb36d8f9fd09.jar" />
     </item>
     <item
         is-multidex="false"
@@ -189,6 +171,15 @@
         revision="24.0.2"
         sha1="288101b16513158c2923ad3fb6161d1452b65e73">
         <dex dex="/Users/hongzhenyue/MyView/app/build/intermediates/pre-dexed/debug/leakcanary-watcher-1.5_55df1edffc13b7c4f79f006c86eefebb337b5865.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/hongzhenyue/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-scalars/2.1.0/7c0d7c8f6e52115bb82fa018d81a8d0cae35dde5/converter-scalars-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7c0d7c8f6e52115bb82fa018d81a8d0cae35dde5">
+        <dex dex="/Users/hongzhenyue/MyView/baselibrary/build/intermediates/pre-dexed/debug/converter-scalars-2.1.0_b6cb8c09cbeab1a443de8670f0b46b108fe23830.jar" />
     </item>
     <item
         is-multidex="false"
