@@ -109,6 +109,8 @@
         </activity>
         <activity android:name=".AccentFirstActivity">
         </activity>
+        <activity android:name=".BlurImageActivity">
+        </activity>
     </application>
 
 </manifest>

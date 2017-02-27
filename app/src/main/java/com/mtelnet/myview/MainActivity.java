@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
     String str29 = "29、自定义开关和尺子";
     String str30 = "30、状态进度条";
     String str31 = "31、RecyclerView凸显第一个item效果";
+    String str32 = "32、仿iOS毛玻璃效果";
     private List<String> mList = new ArrayList<>();
 
     @Override
@@ -87,13 +88,13 @@ public class MainActivity extends AppCompatActivity {
         mList.add(str29);
         mList.add(str30);
         mList.add(str31);
+        mList.add(str32);
 
         RecyclerView mRecyclerView = (RecyclerView) findViewById(R.id.recycle);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         mRecyclerView.setAdapter(new RAdapter());
 
     }
-
 
 
     class RAdapter extends RecyclerView.Adapter<RAdapter.MyViewHolder> {
@@ -153,24 +154,26 @@ public class MainActivity extends AppCompatActivity {
                         goTargetPage(AnimationActivity.class);
                     } else if (position == 21) {
                         goTargetPage(FlipperviewActivity.class);
-                    }else if (position == 22) {
+                    } else if (position == 22) {
                         goTargetPage(AutoChangeActivity.class);
-                    }else if (position == 23) {
+                    } else if (position == 23) {
                         goTargetPage(FlipperActivity.class);
-                    }else if (position == 24) {
+                    } else if (position == 24) {
                         goTargetPage(GetViewPositionActivity.class);
-                    }else if (position == 25) {
+                    } else if (position == 25) {
                         goTargetPage(ViewTranslateActivity.class);
-                    }else if (position == 26) {
+                    } else if (position == 26) {
                         goTargetPage(CheckNotifyActivity.class);
-                    }else if (position == 27) {
+                    } else if (position == 27) {
                         goTargetPage(CustTextActivity.class);
-                    }else if (position == 28) {
+                    } else if (position == 28) {
                         goTargetPage(SwitchAndRulerActivity.class);
-                    }else if (position == 29) {
+                    } else if (position == 29) {
                         goTargetPage(StepViewActivity.class);
-                    }else if (position == 30) {
+                    } else if (position == 30) {
                         goTargetPage(AccentFirstActivity.class);
+                    } else if (position == 31) {
+                        goTargetPage(BlurImageActivity.class);
                     }
                 }
             });
